@@ -1,0 +1,70 @@
+.root {
+    -fx-background-color: #696969;
+}
+
+#titleText {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+}
+
+#searchBox {
+    -fx-background-color: #808080;
+}
+
+#visitButton {
+    -fx-background-color: #337ab7;
+    -fx-text-fill: white;
+}
+
+#visitButton:hover {
+    -fx-background-color: #2e6da4;
+}
+
+#gridPane {
+    -fx-alignment: center;
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+    -fx-padding: 10;
+}
+
+.movieImageView {
+    -fx-fit-width: 150;
+    -fx-fit-height: 200;
+    -fx-background-color: #e0e0e0;
+}
+
+.movieImageView:hover {
+    -fx-fit-width: 160;
+    -fx-fit-height: 210;
+}
+
+#detailsRoot {
+    -fx-background-color: #696969;
+}
+
+#detailsText {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-wrap-text: true;
+}
+
+#genreText {
+    -fx-font-size: 22;
+    -fx-fill: #d3d3d3;
+    -fx-wrap-text: true;
+}
+
+#descText {
+    -fx-font-size: 20px;
+    -fx-fill: #000000;
+    -fx-wrap-text: true;
+}
+
+#backButton {
+    -fx-background-color: #337ab7;
+    -fx-text-fill: white;
+}
+
+#backButton:hover {
+    -fx-background-color: #2e6da4;
+}
